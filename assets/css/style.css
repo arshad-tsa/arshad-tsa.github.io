@@ -1,0 +1,21 @@
+.content-wrapper {
+    margin-top: 56px;
+}
+
+.service-wrapper {
+    border: 1px solid #444;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.service-container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.banner-left{
+    margin-top: 80px;
+}
+.about-img{
+    border: 5px solid rgb(7, 204, 105);
+    height: 100%;
+}
