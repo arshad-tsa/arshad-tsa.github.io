@@ -1,21 +1,83 @@
 .content-wrapper {
     margin-top: 56px;
 }
-
+.content-home{
+    padding-bottom: 80px;
+}
 .service-wrapper {
     border: 1px solid #444;
     border-radius: 5px;
     height: 100%;
+}
+.content-about{
+    padding-bottom: 80px;
 }
 
 .service-container{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.content-services{
+    padding-bottom: 80px;
+}
+.service-header{
+    padding-bottom: 20px;
+}
+
+.portfolio-container{
+    padding-top: 15px;
+    padding-bottom: 15px;     
+}
+.portfolio-wrapper{
+    border: 1px solid #444;
+    
+}   
+.content-portfolioServices{
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 25px;
+    padding-bottom: 15px
+}
 .banner-left{
     margin-top: 80px;
 }
 .about-img{
-    border: 5px solid rgb(7, 204, 105);
+    border: 7px solid rgb(7, 204, 105);
     height: 100%;
+    padding: 8px;
+    background: black;
+}
+
+.dev-color {
+    color: rgb(5, 184, 94);
+}
+.btn-success{
+    border-radius: 25px;
+}
+.content-contactAdress{
+    border: 2px solid black
+    
+}
+.content-portfolio{
+    padding-bottom: 100px;
+}
+.contact-header{
+    padding-bottom: 30px;
+}
+.add-color{
+    background-color: rgb(5, 184, 94);
+}
+.portfolio-container .img-container img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+/* div.portfolio-container:hover{
+    content: "";
+    background: green;
+} */
+.content-contact{
+    padding-bottom: 100px;
 }
