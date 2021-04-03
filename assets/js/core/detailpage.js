@@ -41,7 +41,7 @@ $.ajax({
       <span class="d-block">Restuarant License No: ${response.restaurantLicenseNo}</span>
       <span class="d-block">Total Orders: ${response.totalOrders}</span>
       <span class="d-block">Total Reviews: ${response.totalReviews}</span>
-      <span class="d-block">Others Image: ${imageList(response.otherImageNames)}</span>
+      <span class="d-block">Others Image: ${response.otherImageNames}</span>
 
 
         
@@ -76,18 +76,18 @@ function cuisinesList(cuisinesobj){
   return cuisinesnames;
 } 
     
-function imageList(imageobj){
-  var imagename='';
-  console.log("Categories name",imageobj);
-  $.each(imageobj, function (index, value) { 
-    imagename += `
-              <span>${}</span>
+// function imageList(imageobj){
+//   var imagename='';
+//   console.log("Categories name",imageobj);
+//   $.each(imageobj, function (index, value) { 
+//     imagename += `
+//               <span>${value}</span> 
                     
-              `
-  });
-  console.log("Name",imagename);
-  return imagename;
-} 
+//               `
+//   });
+//   console.log("Name",imagename);
+//   return imagename;
+// } 
 
     
     }
